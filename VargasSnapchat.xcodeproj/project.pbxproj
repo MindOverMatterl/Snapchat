@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5ACE4BED3ED09C10C7859F /* Pods_VargasSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B891283324D8AFD26889B3F /* Pods_VargasSnapchat.framework */; };
 		CD00AB792CC0850800591264 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CD00AB782CC0850800591264 /* FirebaseAnalytics */; };
 		CD00AB7B2CC0850800591264 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CD00AB7A2CC0850800591264 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		CD00AB7D2CC0850800591264 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CD00AB7C2CC0850800591264 /* FirebaseAuth */; };
 		CD00AB7F2CC0850800591264 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CD00AB7E2CC0850800591264 /* FirebaseDatabase */; };
 		CD00AB812CC0850800591264 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CD00AB802CC0850800591264 /* FirebaseStorage */; };
+		CD00AB852CC099C300591264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD00AB842CC099C300591264 /* GoogleService-Info.plist */; };
 		CDBAF4182CC082DB00B9081B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAF4172CC082DB00B9081B /* AppDelegate.swift */; };
 		CDBAF41A2CC082DB00B9081B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAF4192CC082DB00B9081B /* SceneDelegate.swift */; };
 		CDBAF41C2CC082DB00B9081B /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAF41B2CC082DB00B9081B /* iniciarSesionViewController.swift */; };
 		CDBAF41F2CC082DB00B9081B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBAF41D2CC082DB00B9081B /* Main.storyboard */; };
 		CDBAF4212CC082DC00B9081B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBAF4202CC082DC00B9081B /* Assets.xcassets */; };
 		CDBAF4242CC082DC00B9081B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBAF4222CC082DC00B9081B /* LaunchScreen.storyboard */; };
-		CDBAF42C2CC083A800B9081B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDBAF42B2CC083A800B9081B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A468EE4782FE067D3F434CF /* Pods-VargasSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VargasSnapchat.release.xcconfig"; path = "Target Support Files/Pods-VargasSnapchat/Pods-VargasSnapchat.release.xcconfig"; sourceTree = "<group>"; };
+		9B891283324D8AFD26889B3F /* Pods_VargasSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VargasSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD00AB842CC099C300591264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CDBAF4142CC082DB00B9081B /* VargasSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VargasSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBAF4172CC082DB00B9081B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBAF4192CC082DB00B9081B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +34,7 @@
 		CDBAF4202CC082DC00B9081B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBAF4232CC082DC00B9081B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBAF4252CC082DC00B9081B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDBAF42B2CC083A800B9081B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE598B28E142FE60DB95FABA /* Pods-VargasSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VargasSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-VargasSnapchat/Pods-VargasSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +47,37 @@
 				CD00AB7F2CC0850800591264 /* FirebaseDatabase in Frameworks */,
 				CD00AB812CC0850800591264 /* FirebaseStorage in Frameworks */,
 				CD00AB7B2CC0850800591264 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				2F5ACE4BED3ED09C10C7859F /* Pods_VargasSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250CE12024F5C4149A143F4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE598B28E142FE60DB95FABA /* Pods-VargasSnapchat.debug.xcconfig */,
+				4A468EE4782FE067D3F434CF /* Pods-VargasSnapchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A2AB9240C0C721E35F336B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B891283324D8AFD26889B3F /* Pods_VargasSnapchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDBAF40B2CC082DB00B9081B = {
 			isa = PBXGroup;
 			children = (
 				CDBAF4162CC082DB00B9081B /* VargasSnapchat */,
 				CDBAF4152CC082DB00B9081B /* Products */,
+				250CE12024F5C4149A143F4B /* Pods */,
+				8A2AB9240C0C721E35F336B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +99,7 @@
 				CDBAF4202CC082DC00B9081B /* Assets.xcassets */,
 				CDBAF4222CC082DC00B9081B /* LaunchScreen.storyboard */,
 				CDBAF4252CC082DC00B9081B /* Info.plist */,
-				CDBAF42B2CC083A800B9081B /* GoogleService-Info.plist */,
+				CD00AB842CC099C300591264 /* GoogleService-Info.plist */,
 			);
 			path = VargasSnapchat;
 			sourceTree = "<group>";
@@ -87,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDBAF4282CC082DC00B9081B /* Build configuration list for PBXNativeTarget "VargasSnapchat" */;
 			buildPhases = (
+				76935B9387624F7EFC9E26E0 /* [CP] Check Pods Manifest.lock */,
 				CDBAF4102CC082DB00B9081B /* Sources */,
 				CDBAF4112CC082DB00B9081B /* Frameworks */,
 				CDBAF4122CC082DB00B9081B /* Resources */,
+				21F7D73A87092DDCAC08701D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,13 +175,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBAF4242CC082DC00B9081B /* LaunchScreen.storyboard in Resources */,
-				CDBAF42C2CC083A800B9081B /* GoogleService-Info.plist in Resources */,
+				CD00AB852CC099C300591264 /* GoogleService-Info.plist in Resources */,
 				CDBAF4212CC082DC00B9081B /* Assets.xcassets in Resources */,
 				CDBAF41F2CC082DB00B9081B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F7D73A87092DDCAC08701D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VargasSnapchat/Pods-VargasSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VargasSnapchat/Pods-VargasSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VargasSnapchat/Pods-VargasSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76935B9387624F7EFC9E26E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VargasSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDBAF4102CC082DB00B9081B /* Sources */ = {
@@ -306,6 +374,7 @@
 		};
 		CDBAF4292CC082DC00B9081B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE598B28E142FE60DB95FABA /* Pods-VargasSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +402,7 @@
 		};
 		CDBAF42A2CC082DC00B9081B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A468EE4782FE067D3F434CF /* Pods-VargasSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

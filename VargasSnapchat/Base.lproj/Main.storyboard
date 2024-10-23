@@ -55,6 +55,7 @@
                                 <rect key="frame" x="107" y="465.5" width="200" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="7mB-SN-J77"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="OKu-IF-a9c"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Iniciar Sesion">
@@ -68,6 +69,14 @@
                                     <action selector="iniciarSesionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D1Z-Aj-yfj"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efP-Cx-4uG" customClass="GIDSignInButton">
+                                <rect key="frame" x="90" y="581" width="202" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <action selector="botongoogle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pM0-b2-dnn"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -92,11 +101,12 @@
                     <connections>
                         <outlet property="emailTextField" destination="sll-QI-tC6" id="AQ8-cw-uer"/>
                         <outlet property="passwordTextField" destination="ymR-F6-mBX" id="y18-5w-qui"/>
+                        <outlet property="signInButton" destination="efP-Cx-4uG" id="cVm-d2-i1n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="39"/>
+            <point key="canvasLocation" x="137.68115942028987" y="38.839285714285715"/>
         </scene>
     </scenes>
     <resources>
